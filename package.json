@@ -1,0 +1,39 @@
+{
+  "name": "aframe-wms-component",
+  "version": "1.0.0",
+  "description": "WMS (Web Map Services) in A-Frame",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify examples/main.js -o examples/build.js",
+    "dev": "budo examples/main.js:build.js --dir examples --port 8000 --live",
+    "dist": "webpack index.js dist/aframe-wms-component.js && webpack -p index.js dist/aframe-wms-component.min.js",
+    "start": "npm run dev"
+  },
+  "repository": {
+	    "type": "git",
+	    "url": "https://github.com/lcalisto/aframe-wms-component"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-component",
+    "aframe-vr",
+    "vr",
+    "mozvr",
+    "webvr",
+    "wms",
+    "wms-service",
+    "gis"
+  ],
+  "bugs": {
+    "url": "https://github.com/lcalisto/aframe-wms-component/issues"
+  },
+  "homepage": "https://github.com/lcalisto/aframe-wms-component",
+  "author": "Luis Calisto",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "aframe": "^0.7.1",
+    "browserify": "^14.5.0",
+    "webpack": "^3.8.1"
+  }
+}
