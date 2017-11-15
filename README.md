@@ -24,7 +24,7 @@ Example with a globe:
 | **transparent** | If true the resulting image will allow transparency.   | true | false |
 | **styles** | Used for specify the WMS/layer styles.   | none | false |
 
-###Installation
+### Installation
 
 
 #### npm
