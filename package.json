@@ -1,7 +1,7 @@
 {
   "name": "aframe-wms-component",
   "version": "1.0.0",
-  "description": "WMS (Web Map Services) in A-Frame",
+  "description": "WMS (Web Map Service) in A-Frame",
   "main": "index.js",
   "scripts": {
     "build": "browserify examples/main.js -o examples/build.js",
