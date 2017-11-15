@@ -50,7 +50,7 @@ require('aframe-wms-component');
     <title>A-Frame WMS Component - Simple example</title>
     <meta name="description" content="Simple example for WMS component in a flat panel."></meta>
         <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script> 
-    <script src=".dist/aframe-wms-component.min.js">
+    <script src=".dist/aframe-wms-component.min.js"></script> 
   </head>
   <body>
     <a-scene>
@@ -70,7 +70,7 @@ require('aframe-wms-component');
           width: 4048;
           height: 2024;
           "
-          ></a-entity>
+         /></a-entity>
         </a-entity>
     </a-scene>
   </body>
