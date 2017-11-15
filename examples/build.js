@@ -82684,9 +82684,7 @@ AFRAME.registerComponent('wms', {
 	    }
 	  },
 	  init: function () {		  
-		    this.el.addEventListener('componentchanged', function (evt) {
-		    	console.log('Component changed');
-		      });
+
 	  },
 	  update: function (oldData) {
 		    var data = this.data;  // Component property values.
@@ -82723,6 +82721,7 @@ AFRAME.registerComponent('wms', {
 		    el.setAttribute('material', 'src', url);
 		    el.removeAttribute('material','color'); // If color no image is shown. TODO: Find a different way!
 		    // TODO find a way to deal with CORS
+		    // TODO implement get feature info
 		  },
 	  constructURL:function(data){
 		  if(data.version.toLowerCase()=='1.3.0'){
