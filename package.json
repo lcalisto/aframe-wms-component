@@ -1,8 +1,9 @@
 {
   "name": "aframe-wms-component",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "WMS (Web Map Service) in A-Frame",
   "main": "index.js",
+  "cdn": "dist/aframe-wms-component.min.js",
   "scripts": {
     "build": "browserify examples/main.js -o examples/build.js",
     "dev": "budo examples/main.js:build.js --dir examples --port 8000 --live",
